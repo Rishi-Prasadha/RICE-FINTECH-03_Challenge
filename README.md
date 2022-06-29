@@ -6,20 +6,29 @@ This application was created to calculate potential profits from arbitration of 
 
 ## Technologies 
 
-This application runs on Python 3.7 with the following packages:
+This application runs on Python 3.7.
 
 
 ---
 
-## Installation Guide
+## Libraries
 
-Prior to running the program, please install the following packages in either Terminal or Git Bash:
+This analysis used extensive DataFrame manipulation with Pandas, plotting with matplotlib and the Path function from pathlib to refer to files in other directories. Import statements already present in program, refer to them below:
+
+```python
+import pandas as pd
+from pathlib import Path
+%matplotlib inline
+```
 
 ---
 
-## Usage
+## Database
 
-To run this program, from the top of the repository, change directories into 
+The datasets that were analyzed for arbitration opportunities were Bitcoin closing prices found on Bitstamp and Coinbase from January 1st, 2018 to March 31, 2018. Please refer to the *Resources* folder for the following files:
+
+* bitstamp.csv
+* coinbase.csv
 
 
 ---
